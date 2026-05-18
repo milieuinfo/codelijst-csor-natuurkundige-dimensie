@@ -1,0 +1,470 @@
+PREFIX csor:             <https://data.omgeving.vlaanderen.be/ns/csor#>
+PREFIX csor-constraints: <https://data.omgeving.vlaanderen.be/ns/csor-constraints#>
+PREFIX dcterms:          <http://purl.org/dc/terms/>
+PREFIX iadopt:           <https://w3id.org/iadopt/ont/>
+PREFIX owl:              <http://www.w3.org/2002/07/owl#>
+PREFIX qudt:             <http://qudt.org/schema/qudt/>
+PREFIX rdf:              <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:             <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sh:               <http://www.w3.org/ns/shacl#>
+PREFIX skos:             <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd:              <http://www.w3.org/2001/XMLSchema#>
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_10>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "l";
+        skos:prefLabel          "lengte"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_59>;
+        csor:symbool            "l" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_3>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "m.m(-1)";
+        skos:prefLabel          "massaverhouding"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_26>;
+        csor:symbool            "m.m(-1)" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_38>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "m.l(-2).t(-1)";
+        skos:prefLabel          "massa per oppervlakte per tijd"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_198>;
+        csor:symbool            "m.l(-2).t(-1)" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_46>
+        rdf:type                skos:Concept , csor:NatuurkundigeDimensie;
+        owl:deprecated          false;
+        skos:definition         "Dit is een toelichting"@nl;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "EMMA";
+        skos:prefLabel          "Test Emma"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_247>;
+        csor:symbool            "EMMA" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_17>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "G.l(-1)";
+        skos:prefLabel          "elektrische geleidbaarheid per lengte"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_72>;
+        csor:symbool            "G.l(-1)" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_25>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "EE";
+        skos:prefLabel          "Effect eenheden"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_84>;
+        csor:symbool            "EE" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_33>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "p";
+        skos:prefLabel          "druk"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_193>;
+        csor:symbool            "p" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_41>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "P.l(-2)";
+        skos:prefLabel          "vermogen per oppervlakte"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_201>;
+        csor:symbool            "P.l(-2)" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_12>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "Bq.l(-3)";
+        skos:prefLabel          "radioactiviteit per volume"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_63>;
+        csor:symbool            "Bq.l(-3)" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_20>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "l.t(-1)";
+        skos:prefLabel          "lengte per tijdseenheid"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_77>;
+        csor:symbool            "l.t(-1)" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_5>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "m";
+        skos:prefLabel          "massa"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_36>;
+        csor:symbool            "m" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_19>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "Hardheid";
+        skos:prefLabel          "Hardheid"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_75>;
+        csor:symbool            "Hardheid" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_27>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "m(eq).t(-1)";
+        skos:prefLabel          "massa equivalenten per tijd"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_86>;
+        csor:symbool            "m(eq).t(-1)" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_35>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "mol.l(-2).t(-1)";
+        skos:prefLabel          "mol per oppervlakte per tijd"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_195>;
+        csor:symbool            "mol.l(-2).t(-1)" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_43>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "AU.l(-3)";
+        skos:prefLabel          "arbitraire eenheid per volume"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_203>;
+        csor:symbool            "AU.l(-3)" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_14>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "eq.l(-3)";
+        skos:prefLabel          "equivalenten per volume"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_67>;
+        csor:symbool            "eq.l(-3)" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_22>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "mol";
+        skos:prefLabel          "mol"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_79>;
+        csor:symbool            "mol" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_30>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "P";
+        skos:prefLabel          "vermogen"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_92>;
+        csor:symbool            "P" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_7>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "DIMLOZEVERHOUDING";
+        skos:prefLabel          "dimensieloze verhouding"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_43>;
+        csor:symbool            "DIMLOZEVERHOUDING" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_2>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "m.t(-1)";
+        skos:prefLabel          "massa per tijd"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_10>;
+        csor:symbool            "m.t(-1)" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_29>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "E.t(-1)";
+        skos:prefLabel          "energie per tijd"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_91>;
+        csor:symbool            "E.t(-1)" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_37>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "eq.l(-2).t(-1)";
+        skos:prefLabel          "equivalenten per oppervlakte per tijd"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_197>;
+        csor:symbool            "eq.l(-2).t(-1)" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_16>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "U";
+        skos:prefLabel          "spanning"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_71>;
+        csor:symbool            "U" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_24>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "#";
+        skos:prefLabel          "aantal"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_83>;
+        csor:symbool            "#" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_32>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "A";
+        skos:prefLabel          "oppervlakte"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_95>;
+        csor:symbool            "A" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_9>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "#.l(-3)";
+        skos:prefLabel          "aantal per volume"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_54>;
+        csor:symbool            "#.l(-3)" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_40>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "m(3).m(-2)";
+        skos:prefLabel          "volume per oppervlakte"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_200>;
+        csor:symbool            "m(3).m(-2)" .
+
+<https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>
+        rdf:type            skos:ConceptScheme;
+        owl:deprecated      false;
+        skos:definition     "Een natuurkundige dimensie duidt aan welke grootheid gebruikt wordt om de observatie te doen."@nl;
+        skos:hasTopConcept  <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_19> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_30> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_24> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_36> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_22> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_10> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_34> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_3> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_1> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_7> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_27> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_43> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_35> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_39> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_33> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_2> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_6> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_26> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_42> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_14> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_38> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_18> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_12> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_5> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_41> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_9> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_21> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_13> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_37> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_17> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_29> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_11> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_4> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_40> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_46> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_8> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_20> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_44> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_16> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_32> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_28> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_25> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_23> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_15> , <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_31>;
+        skos:prefLabel      "Natuurkundige dimensies"@nl .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_11>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "T";
+        skos:prefLabel          "temperatuur"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_62>;
+        csor:symbool            "T" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_4>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "l(3)";
+        skos:prefLabel          "volume"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_32>;
+        csor:symbool            "l(3)" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_39>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "m.l(-2)";
+        skos:prefLabel          "massa per oppervlakte"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_199>;
+        csor:symbool            "m.l(-2)" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_18>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "-";
+        skos:prefLabel          "Geen"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_74>;
+        csor:symbool            "-" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_26>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "m(eq).l(-3)";
+        skos:prefLabel          "massa equivalenten per volume"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_85>;
+        csor:symbool            "m(eq).l(-3)" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_34>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "mol.l(-2)";
+        skos:prefLabel          "mol per oppervlakte"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_194>;
+        csor:symbool            "mol.l(-2)" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_42>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "HOEK";
+        skos:prefLabel          "hoek"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_202>;
+        csor:symbool            "HOEK" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_13>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "Turbiditeit";
+        skos:prefLabel          "turbiditeit"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_65>;
+        csor:symbool            "Turbiditeit" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_21>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "IE";
+        skos:prefLabel          "inwonersequivalent"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_78>;
+        csor:symbool            "IE" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_6>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "mol.l(-3)";
+        skos:prefLabel          "molaire concentratie"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_42>;
+        csor:symbool            "mol.l(-3)" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_1>
+        rdf:type                skos:Concept , csor:NatuurkundigeDimensie;
+        owl:deprecated          true;
+        skos:definition         "Verhouding massa per volume (toelichting)"@nl;
+        skos:exactMatch         <http://qudt.org/vocab/dimensionvector/A0E0L-3I0M1H0T0D0>;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "m.l(-3)";
+        skos:prefLabel          "massaconcentratie"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:geldigTot          "2026-04-17"^^xsd:date;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_1>;
+        csor:symbool            "m.l(-3)" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_28>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "E";
+        skos:prefLabel          "energie"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_89>;
+        csor:symbool            "E" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_36>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "eq.l(-2)";
+        skos:prefLabel          "equivalenten per oppervlakte"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_196>;
+        csor:symbool            "eq.l(-2)" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_44>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:prefLabel          "test kaat"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_243> .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_15>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "l(3).l(-3)";
+        skos:prefLabel          "volumeverhouding"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_70>;
+        csor:symbool            "l(3).l(-3)" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_23>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "m(eq).m(-1)";
+        skos:prefLabel          "massa equivalenten per massa"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_80>;
+        csor:symbool            "m(eq).m(-1)" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_31>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "t";
+        skos:prefLabel          "tijd"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_93>;
+        csor:symbool            "t" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_8>
+        rdf:type                csor:NatuurkundigeDimensie , skos:Concept;
+        owl:deprecated          false;
+        skos:inScheme           <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        skos:notation           "l(3).t(-1)";
+        skos:prefLabel          "volume per tijdseenheid"@nl;
+        skos:topConceptOf       <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie>;
+        csor:referentieEenheid  <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_45>;
+        csor:symbool            "l(3).t(-1)" .
