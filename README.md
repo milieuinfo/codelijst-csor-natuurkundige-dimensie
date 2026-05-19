@@ -12,6 +12,8 @@ De codelijst is gepubliceerd als een SKOS-conceptenschema op:
 https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie
 ```
 
+Named graph (Virtuoso): `https://data.omgeving.vlaanderen.be/id/graph/codelijst-csor-natuurkundige-dimensie`
+
 Elk concept bevat:
 
 | Eigenschap | Beschrijving |
