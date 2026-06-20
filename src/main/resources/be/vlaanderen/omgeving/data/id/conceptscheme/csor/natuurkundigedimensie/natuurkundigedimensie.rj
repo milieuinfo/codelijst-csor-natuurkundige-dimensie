@@ -51,7 +51,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_17" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "G.l(-1)"
+      "value" : "elektrische geleidbaarheid per lengte"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -100,7 +100,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_39" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "m.l(-2)"
+      "value" : "massa per oppervlakte"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -149,7 +149,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_18" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "-"
+      "value" : "Geen"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -242,10 +242,6 @@
     }
     , { 
       "type" : "uri" ,
-      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_44"
-    }
-    , { 
-      "type" : "uri" ,
       "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_1"
     }
     , { 
@@ -291,10 +287,6 @@
     , { 
       "type" : "uri" ,
       "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_2"
-    }
-    , { 
-      "type" : "uri" ,
-      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_46"
     }
     , { 
       "type" : "uri" ,
@@ -405,7 +397,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_8" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "l(3).t(-1)"
+      "value" : "volume per tijdseenheid"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -454,7 +446,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_9" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "#.l(-3)"
+      "value" : "aantal per volume"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -503,7 +495,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_6" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "mol.l(-3)"
+      "value" : "molaire concentratie"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -552,7 +544,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_7" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "DIMLOZEVERHOUDING"
+      "value" : "dimensieloze verhouding"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -601,7 +593,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_40" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "m(3).m(-2)"
+      "value" : "volume per oppervlakte"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -650,7 +642,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_41" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "P.l(-2)"
+      "value" : "vermogen per oppervlakte"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -745,7 +737,12 @@
      ]
   }
    ,
-  "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_44" : { 
+  "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_1" : { 
+    "http://www.w3.org/2004/02/skos/core#notation" : [ { 
+      "type" : "literal" ,
+      "value" : "massaconcentratie"
+    }
+     ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
       "type" : "uri" ,
       "value" : "https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie"
@@ -753,7 +750,7 @@
      ] ,
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
       "type" : "literal" ,
-      "value" : "test kaat" ,
+      "value" : "massaconcentratie" ,
       "lang" : "nl"
     }
      ] ,
@@ -763,65 +760,9 @@
       "datatype" : "http://www.w3.org/2001/XMLSchema#boolean"
     }
      ] ,
-    "https://data.omgeving.vlaanderen.be/ns/csor#referentieEenheid" : [ { 
-      "type" : "uri" ,
-      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_243"
-    }
-     ] ,
-    "http://www.w3.org/2004/02/skos/core#inScheme" : [ { 
-      "type" : "uri" ,
-      "value" : "https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie"
-    }
-     ] ,
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
-      "type" : "uri" ,
-      "value" : "https://data.omgeving.vlaanderen.be/ns/csor#NatuurkundigeDimensie"
-    }
-    , { 
-      "type" : "uri" ,
-      "value" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }
-     ]
-  }
-   ,
-  "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_1" : { 
-    "http://www.w3.org/2004/02/skos/core#notation" : [ { 
+    "https://data.omgeving.vlaanderen.be/ns/csor#symbool" : [ { 
       "type" : "literal" ,
       "value" : "m.l(-3)"
-    }
-     ] ,
-    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ { 
-      "type" : "uri" ,
-      "value" : "http://qudt.org/vocab/dimensionvector/A0E0L-3I0M1H0T0D0"
-    }
-     ] ,
-    "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
-      "type" : "uri" ,
-      "value" : "https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie"
-    }
-     ] ,
-    "https://data.omgeving.vlaanderen.be/ns/csor#geldigTot" : [ { 
-      "type" : "literal" ,
-      "value" : "2026-04-17" ,
-      "datatype" : "http://www.w3.org/2001/XMLSchema#date"
-    }
-     ] ,
-    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
-      "type" : "literal" ,
-      "value" : "massaconcentratie" ,
-      "lang" : "nl"
-    }
-     ] ,
-    "http://www.w3.org/2004/02/skos/core#definition" : [ { 
-      "type" : "literal" ,
-      "value" : "Verhouding massa per volume (toelichting)" ,
-      "lang" : "nl"
-    }
-     ] ,
-    "http://www.w3.org/2002/07/owl#deprecated" : [ { 
-      "type" : "literal" ,
-      "value" : "true" ,
-      "datatype" : "http://www.w3.org/2001/XMLSchema#boolean"
     }
      ] ,
     "https://data.omgeving.vlaanderen.be/ns/csor#referentieEenheid" : [ { 
@@ -829,9 +770,9 @@
       "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_1"
     }
      ] ,
-    "https://data.omgeving.vlaanderen.be/ns/csor#symbool" : [ { 
-      "type" : "literal" ,
-      "value" : "m.l(-3)"
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie"
     }
      ] ,
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
@@ -842,18 +783,13 @@
       "type" : "uri" ,
       "value" : "http://www.w3.org/2004/02/skos/core#Concept"
     }
-     ] ,
-    "http://www.w3.org/2004/02/skos/core#inScheme" : [ { 
-      "type" : "uri" ,
-      "value" : "https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie"
-    }
      ]
   }
    ,
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_23" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "m(eq).m(-1)"
+      "value" : "massa equivalenten per massa"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -902,7 +838,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_20" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "l.t(-1)"
+      "value" : "lengte per tijdseenheid"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -951,7 +887,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_42" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "HOEK"
+      "value" : "hoek"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -1000,7 +936,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_43" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "AU.l(-3)"
+      "value" : "arbitraire eenheid per volume"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -1049,7 +985,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_21" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "IE"
+      "value" : "inwonersequivalent"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -1098,7 +1034,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_4" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "l(3)"
+      "value" : "volume"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -1147,7 +1083,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_26" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "m(eq).l(-3)"
+      "value" : "massa equivalenten per volume"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -1196,7 +1132,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_5" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "m"
+      "value" : "massa"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -1245,7 +1181,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_27" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "m(eq).t(-1)"
+      "value" : "massa equivalenten per tijd"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -1291,65 +1227,10 @@
      ]
   }
    ,
-  "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_46" : { 
-    "http://www.w3.org/2004/02/skos/core#notation" : [ { 
-      "type" : "literal" ,
-      "value" : "EMMA"
-    }
-     ] ,
-    "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
-      "type" : "uri" ,
-      "value" : "https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie"
-    }
-     ] ,
-    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
-      "type" : "literal" ,
-      "value" : "Test Emma" ,
-      "lang" : "nl"
-    }
-     ] ,
-    "http://www.w3.org/2004/02/skos/core#definition" : [ { 
-      "type" : "literal" ,
-      "value" : "Dit is een toelichting" ,
-      "lang" : "nl"
-    }
-     ] ,
-    "http://www.w3.org/2002/07/owl#deprecated" : [ { 
-      "type" : "literal" ,
-      "value" : "false" ,
-      "datatype" : "http://www.w3.org/2001/XMLSchema#boolean"
-    }
-     ] ,
-    "https://data.omgeving.vlaanderen.be/ns/csor#referentieEenheid" : [ { 
-      "type" : "uri" ,
-      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_247"
-    }
-     ] ,
-    "https://data.omgeving.vlaanderen.be/ns/csor#symbool" : [ { 
-      "type" : "literal" ,
-      "value" : "EMMA"
-    }
-     ] ,
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
-      "type" : "uri" ,
-      "value" : "https://data.omgeving.vlaanderen.be/ns/csor#NatuurkundigeDimensie"
-    }
-    , { 
-      "type" : "uri" ,
-      "value" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }
-     ] ,
-    "http://www.w3.org/2004/02/skos/core#inScheme" : [ { 
-      "type" : "uri" ,
-      "value" : "https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/natuurkundigedimensie"
-    }
-     ]
-  }
-   ,
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_2" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "m.t(-1)"
+      "value" : "massa per tijd"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -1398,7 +1279,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_24" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "#"
+      "value" : "aantal"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -1447,7 +1328,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_3" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "m.m(-1)"
+      "value" : "massaverhouding"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -1496,7 +1377,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_25" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "EE"
+      "value" : "Effect eenheden"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -1545,7 +1426,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_28" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "E"
+      "value" : "energie"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -1594,7 +1475,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_29" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "E.t(-1)"
+      "value" : "energie per tijd"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -1643,7 +1524,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_30" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "P"
+      "value" : "vermogen"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -1692,7 +1573,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_33" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "p"
+      "value" : "druk"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -1741,7 +1622,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_11" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "T"
+      "value" : "temperatuur"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -1790,7 +1671,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_12" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "Bq.l(-3)"
+      "value" : "radioactiviteit per volume"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -1839,7 +1720,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_34" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "mol.l(-2)"
+      "value" : "mol per oppervlakte"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -1888,7 +1769,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_31" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "t"
+      "value" : "tijd"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -1937,7 +1818,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_10" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "l"
+      "value" : "lengte"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -1986,7 +1867,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_32" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "A"
+      "value" : "oppervlakte"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -2035,7 +1916,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_37" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "eq.l(-2).t(-1)"
+      "value" : "equivalenten per oppervlakte per tijd"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -2084,7 +1965,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_15" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "l(3).l(-3)"
+      "value" : "volumeverhouding"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -2133,7 +2014,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_38" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "m.l(-2).t(-1)"
+      "value" : "massa per oppervlakte per tijd"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -2182,7 +2063,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_16" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "U"
+      "value" : "spanning"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -2231,7 +2112,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_35" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "mol.l(-2).t(-1)"
+      "value" : "mol per oppervlakte per tijd"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -2280,7 +2161,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_13" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "Turbiditeit"
+      "value" : "turbiditeit"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -2329,7 +2210,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_14" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "eq.l(-3)"
+      "value" : "equivalenten per volume"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -2378,7 +2259,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_36" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
-      "value" : "eq.l(-2)"
+      "value" : "equivalenten per oppervlakte"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
