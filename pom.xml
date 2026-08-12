@@ -9,14 +9,14 @@
   <packaging>jar</packaging>
   <groupId>be.vlaanderen.omgeving.data.id.graph</groupId>
   <artifactId>codelijst-csor-natuurkundige-dimensie</artifactId>
-  <version>0.3.0</version>
+  <version>0.3.1-SNAPSHOT</version>
   <name>codelijst-csor-natuurkundige-dimensie</name>
   <description />
   <scm>
     <connection>scm:git:https://github.com/milieuinfo/codelijst-csor-natuurkundige-dimensie.git</connection>
     <developerConnection>scm:git:https://github.com/milieuinfo/codelijst-csor-natuurkundige-dimensie.git</developerConnection>
     <url>https://github.com/milieuinfo/codelijst-csor-natuurkundige-dimensie.git</url>
-    <tag>codelijst-csor-natuurkundige-dimensie-0.3.0</tag>
+    <tag>HEAD</tag>
   </scm>
   <build>
     <plugins>
